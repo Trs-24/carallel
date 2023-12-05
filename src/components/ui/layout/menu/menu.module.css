@@ -1,0 +1,27 @@
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-sizing: border-box;
+    box-shadow: 0 0px 10px -6px gray;
+}
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    font-weight: 600;
+    color: gray;
+}
+.menuItem span {
+    font-size: 16px;
+}
+.active {
+    color: #015301;
+}
+.menuItem svg {
+    font-size: 20px
+}

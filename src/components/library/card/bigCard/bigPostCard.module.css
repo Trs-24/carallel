@@ -1,0 +1,21 @@
+.main {
+    min-width: 200px;
+    max-width: 200px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 0 0 10px -3px gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+.title {
+    background-color: white;
+    height: 50%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.title {
+    font-size: 14px;
+}

@@ -1,0 +1,25 @@
+.main {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    overflow-x: auto;
+    max-width: 100%;
+    padding: 0 1rem;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+.main::-webkit-scrollbar {
+    height: 0
+}
+.main::-webkit-scrollbar-track {
+    background: transparent
+}
+.main::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 10px;
+}
+.main::-webkit-scrollbar-thumb:hover {
+    background: 0;
+    border-radius: 10px;
+}
